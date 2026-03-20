@@ -3,14 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <title>NovaAI Pro</title>
+            <!-- tailwind cdn -->
    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+        <!-- custom css -->
    <link rel="stylesheet" href="style.css">
  
 </head>
 
 <body class="bg-gray-950 text-white">
 
-<!-- Navbar -->
+       <!-- Navbar -->
 <nav class="flex justify-between items-center px-12 py-5 backdrop-blur-lg bg-white/15 sticky top-0 z-50">
   <h1 class="text-2xl font-bold gradient-text">NovaAI</h1>
   <div class="space-x-6 text-gray-300">
@@ -20,7 +22,7 @@
     <a href="dashboard.html" class="bg-indigo-500 px-4 py-2 rounded-lg hover:bg-indigo-600">Dashboard</a>
   </div>
 </nav>
-<!-- Hero -->
+       <!-- Hero -->
 <section class="text-center py-28 px-6">
   <h1 class="text-6xl font-bold leading-tight">
     Build <span class="gradient-text">Future SaaS</span> Without Limits
@@ -37,6 +39,25 @@
       Live Demo
     </button>
   </div>
+</section>
+<!-- Feature Section -->
+<section id="features" class="px-10 py-20 grid md:grid-cols-3 gap-10">
+
+  <div class="p-8 rounded-2xl bg-white/5 backdrop-blur-lg hover:scale-105 transition">
+    <h2 class="text-xl font-semibold mb-3">⚡ Ultra Fast</h2>
+    <p class="text-gray-400">Optimized performance for modern apps.</p>
+  </div>
+
+  <div class="p-8 rounded-2xl bg-white/5 hover:scale-105 transition">
+    <h2 class="text-xl font-semibold mb-3">🔐 Secure</h2>
+    <p class="text-gray-400">Enterprise-grade security built in.</p>
+  </div>
+
+  <div class="p-8 rounded-2xl bg-white/5 hover:scale-105 transition">
+    <h2 class="text-xl font-semibold mb-3">📈 Scalable</h2>
+    <p class="text-gray-400">Handle millions of users effortlessly.</p>
+  </div>
+
 </section>
 </body>
 </html>
